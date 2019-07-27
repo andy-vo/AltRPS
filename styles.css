@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500i,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* this cancels the webpage default margin and padding */
+
+body {
+  background-color: #24272E;
+}
+
+header {
+  background: white;
+  padding: 20px;
+}
+
+header > h1 {
+  color: #24272E;
+  text-align: center;
+  font-family: Asap, sans-serif;
+}
+
+.score-board {
+  border: 3px solid white;
+  width: 200px;
+  height: 170px;
+  margin: 20px auto;
+/* margin 20px from the header and the auto centers the div */
+  color: white;
+  font-size: 46px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 20px;
+  font-family: Asap, sans-serif
+}
+
+.badge {
+  background: red;
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px;
+  font-family: Asap, sans-serif;
+}
+
+#user-label {
+  position: relative;
+  right: 45px;
+  width: 50px;
+  top: 55px;
+}
+
+#computer-label {
+  position: relative;
+  left: 150px;
+  top: 35px;
+  width: 50px;
+}
+
+.results {
+  font-size: 40px;
+  color: white;
+}
+
+.results > p {
+  text-align: center;
+  font-weight: bold;
+  font-family: Asap, sans-serif;
+}
+
+.choices {
+  margin: 50px 0;
+  text-align: center;
+/* choices is the div for all the pictures and this centers all 3 pics */
+}
+
+.choice {
+  border: 20px solid red;
+  border-radius: 50%;
+  margin: 0 15px;
+  display: inline-block;
+/* this inline block makes the pictures horizontal */
+}
+
+.choice:hover {
+  cursor: pointer;
+  background: red;
+}
+
+#action-message {
+  text-align: center;
+  color: white;
+  font-family: Asap, sans-serif;
+  font-weight: bold;
+  font-size: 20px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dsv

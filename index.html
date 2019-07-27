@@ -3,8 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>Alternative Rock Paper Scisscors game</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-dsds
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">user</div>
+      <div id="computer-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+<!--span are inline elements (inline elements don't skip a line) -->
+    </div>
+
+    <div class ="results">
+      <p> Paper covers rock. You win!</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="p">
+        <img src="images/paper.jpg" width="100" height="100" alt="">
+      </div>
+      <div class="choice" id="r">
+        <img src="images/rock.jpeg" width="100" height="100" alt="">
+      </div>
+      <div class="choice" id="s">
+        <img src="images/scissors.jpg" width="100" height="100" alt="">
+      </div>
+    </div>
+
+    <p id="action-message">Make your move</p>
+
+
+
   </body>
 </html>
